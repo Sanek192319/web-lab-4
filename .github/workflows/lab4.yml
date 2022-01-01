@@ -1,25 +1,25 @@
 name: Node.js CI
 
 on:
-    push:
-        branches: [lab4]
+  push:
+    branches: [lab4]
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: actions/checkout@v2
-            - name: Use Node.js 16
-              uses: actions/setup-node@v2
-              with:
-                  node-version: "16"
-                  cache: "npm"
-            - name: Install Eslint
-              run: |
-                  npm ci
-            - name: Eslint working flow
-              run: |
-                  npm run eslint:check
-                  npm run stylelint:check
-                  npm run format:check
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+          cache: "npm"
+      - name: Install Eslint
+        run: |
+          npm ci
+      - name: Eslint working flow
+        run: |
+          npm run eslint:check
+          npm run stylelint:check
+          npm run format:check

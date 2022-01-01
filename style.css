@@ -117,10 +117,9 @@ header {
     margin-left: 1rem;
     margin-top: 0.3rem;
     transform-origin: 0.3rem 0;
-    transition:
-      transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-      opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: opacity 0.55s ease;
     width: 2rem;
   }
 
