@@ -1,102 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Burger Menu</title>
-</head>
-<body>
-<header>
-    <nav class="burger-menu">
-        <div class="wrapper">
-            <input
-                id="navbar-toggle"
-                class="navbar-toggle"
-                type="checkbox"
-                name="navbar-toggle"
-            />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Burger Menu</title>
+    </head>
+    <body>
+        <header>
+            <nav class="burger-menu">
+                <div class="wrapper">
+                    <input
+                        id="navbar-toggle"
+                        class="navbar-toggle"
+                        type="checkbox"
+                        name="navbar-toggle"
+                    />
 
-            <label class="backdrop" for="navbar-toggle"></label>
+                    <label class="backdrop" for="navbar-toggle"></label>
 
-            <div class="icon">
-                <span></span>
-                <span></span>
-                <span></span>
+                    <div class="icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <ul class="menu">
+                        <li>
+                            <a href="https://www.instagram.com/">Instagram</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012867%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA8bqOBhANEiwA-sIlNwhkNAKXNqoV-XRvUmBhUJoOyJOx0mumEQQ792PEVMEPys9a6JHWdRoCeVcQAvD_BwE"
+                                >Facebook</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/">YouTube</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="slider">
+                <input
+                    id="slide1"
+                    class="slide1"
+                    name="slide-selector"
+                    type="radio"
+                    checked
+                />
+                <input
+                    id="slide2"
+                    class="slide2"
+                    name="slide-selector"
+                    type="radio"
+                />
+                <input
+                    id="slide3"
+                    class="slide3"
+                    name="slide-selector"
+                    type="radio"
+                />
+                <div class="label-bars-container">
+                    <label class="label-bar" for="slide1"></label>
+                    <label class="label-bar" for="slide2"></label>
+                    <label class="label-bar" for="slide3"></label>
+                </div>
+                <div class="btn btn-left">
+                    <label class="btn-label btn-label-left" for="slide1">
+                        &#8592;
+                    </label>
+                    <label class="btn-label btn-label-left" for="slide2">
+                        &#8592;
+                    </label>
+                    <label class="btn-label btn-label-left" for="slide3">
+                        &#8592;
+                    </label>
+                </div>
+                <div class="btn btn-right">
+                    <label class="btn-label btn-label-right" for="slide1">
+                        &#8594;
+                    </label>
+                    <label class="btn-label btn-label-right" for="slide2">
+                        &#8594;
+                    </label>
+                    <label class="btn-label btn-label-right" for="slide3">
+                        &#8594;
+                    </label>
+                </div>
+                <div class="slider-visible">
+                    <div class="slider-content">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                    </div>
+                </div>
             </div>
-
-            <ul class="menu">
-                <li>
-                    <a href="https://www.instagram.com/">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1600506847&extra_1=s%7Cc%7C303881997266%7Ce%7Cfacebook%7C&placement=&creative=303881997266&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1600506847%26adgroupid%3D60825662376%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1012867%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA8bqOBhANEiwA-sIlNwhkNAKXNqoV-XRvUmBhUJoOyJOx0mumEQQ792PEVMEPys9a6JHWdRoCeVcQAvD_BwE">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/">YouTube</a>
-                </li>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
-<main>
-    <div class="slider">
-        <input
-            id="slide1"
-            class="slide1"
-            name="slide-selector"
-            type="radio"
-            checked
-        />
-        <input
-            id="slide2"
-            class="slide2"
-            name="slide-selector"
-            type="radio"
-        />
-        <input
-            id="slide3"
-            class="slide3"
-            name="slide-selector"
-            type="radio"
-        />
-        <div class="label-bars-container">
-            <label class="label-bar" for="slide1"></label>
-            <label class="label-bar" for="slide2"></label>
-            <label class="label-bar" for="slide3"></label>
-        </div>
-        <div class="btn btn-left">
-            <label class="btn-label btn-label-left" for="slide1">
-                &#8592;
-            </label>
-            <label class="btn-label btn-label-left" for="slide2">
-                &#8592;
-            </label>
-            <label class="btn-label btn-label-left" for="slide3">
-                &#8592;
-            </label>
-        </div>
-        <div class="btn btn-right">
-            <label class="btn-label btn-label-right" for="slide1">
-                &#8594;
-            </label>
-            <label class="btn-label btn-label-right" for="slide2">
-                &#8594;
-            </label>
-            <label class="btn-label btn-label-right" for="slide3">
-                &#8594;
-            </label>
-
-        </div>
-        <div class="slider-visible">
-            <div class="slider-content">
-                <div class="slide"></div>
-                <div class="slide"></div>
-                <div class="slide"></div>
-            </div>
-        </div>
-    </div>
-</main>
-</body>
+        </main>
+    </body>
 </html>
