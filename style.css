@@ -333,6 +333,7 @@ header {
 .slider-content .slide {
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
   flex: 1 1;
   height: 100%;
 }
