@@ -71,7 +71,7 @@ header {
   padding: 2rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
   .wrapper {
     background-color: transparent;
     display: block;
