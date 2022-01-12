@@ -335,18 +335,18 @@ header {
 }
 
 .slider-content .slide:nth-of-type(1) {
-  background-image: url("https://www.publicdomainpictures.net/pictures/320000/nahled/background-image.png");
+  background-image: url("/images/background-image1.png");
 }
 
 .slider-content .slide:nth-of-type(2) {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg");
+  background-image: url("/images/background-image2.jpg");
 }
 
 .slider-content .slide:nth-of-type(3) {
-  background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-image: url("/images/background-image3.jpg");
 }
 
 @keyframes burger-menu-translation {
